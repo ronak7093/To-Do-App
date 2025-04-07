@@ -25,7 +25,7 @@ A simple and elegant **To-Do List** built with **React.js** and styled with **CS
 
 ## 📸 Demo
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](/list_4472515.png)
 
 > Replace the image with your app screenshot if available.
 
@@ -36,5 +36,5 @@ A simple and elegant **To-Do List** built with **React.js** and styled with **CS
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/ronak7093/To-Do-App.git
 cd react-todo-app
