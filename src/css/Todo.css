@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    width: 30%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    color: #333;
+}
+
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    word-break: break-word;
+}
+
+li span {
+    flex: 1;
+    /* Take remaining space */
+    margin-right: 10px;
+}
+
+.edit-btn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.edit-btn:hover {
+    background-color: #0092cc;
+}
+
+.delete-btn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    /* margin-left: 550px; */
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* toastStyles.css */
+
+.custom-toast-success {
+    background-color: #4caf50 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.custom-toast-error {
+    background-color: #f44336 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.custom-toast-info {
+    /* background-color: #2196f3 !important; */
+    color: black !important;
+    font-weight: bold;
+}
